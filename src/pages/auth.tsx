@@ -1,15 +1,16 @@
 import SignInPage from "../features/authentication/page";
 import "../styles/authStyles.css";
 import AshokStumb from "../assets/ashokstumb.png";
+import CogLogo from "../assets/cog_logo.png";
 
 export default function Auth() {
   return (
     <>
       <header className="auth_header">
         <div className="logo_container">
-          <img src={AshokStumb} alt="ASDM Logo" />
+          <img src={CogLogo} alt="Cognitive Tech Logo" width={100} height={100} />
           <div>
-            <h3>Assam Skill Development Mission</h3>
+            <h3>Cognitive Tech</h3>
             <h6>Human Resource Management System</h6>
           </div>
         </div>
@@ -18,7 +19,7 @@ export default function Auth() {
       <SignInPage />
 
       <footer>
-        Copyright ©All Rights Reserved - 2023 | Assam skill Development Mission
+        Copyright ©All Rights Reserved - 2025 | Cognitive Tech
       </footer>
     </>
   );

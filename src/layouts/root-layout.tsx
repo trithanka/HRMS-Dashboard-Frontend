@@ -136,7 +136,7 @@ export default function RootLayout() {
                   <MenuIcon />
                 </IconButton>
                 <Typography noWrap fontWeight={500}>
-                  ASDM HR Dashboard
+                  Cognitive HR Dashboard
                 </Typography>{" "}
               </Stack>
 
