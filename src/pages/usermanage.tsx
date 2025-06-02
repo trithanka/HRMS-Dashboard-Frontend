@@ -136,8 +136,9 @@ const UserManage: React.FC = () => {
       ?.split("=")[1]; // Extract token from cookies
 
     try {
+      // Use environment variable from import.meta.env instead of process.env
       const response = await axios.post(
-        "https://hrms.skillmissionassam.org/nw/Authenticate/access/getAll",
+        `${import.meta.env.VITE_API_URL}/Authenticate/access/getAll`,
         searchParams,
         {
           headers: {
